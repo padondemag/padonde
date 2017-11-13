@@ -1,0 +1,281 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "creationData": {
+      "type": "App Designer",
+      "projectTypeName": "com.intel.xdk.projecttype.webapp",
+      "src": "webapp/template-blank-ad-project/sample.zip",
+      "projectGuid": "8d7f967f-be72-47ef-8d19-5e64a2a7f818",
+      "lastModifiedDate": 1470451014874,
+      "creationDate": 1444351942035
+    },
+    "XDK-app-designer": "true",
+    "sourceDirectory": "www",
+    "startFile": "index.html",
+    "projectFiles": {
+      "xdk-publish-meta-data.json": {
+        "settings": {
+          "project": {
+            "XDK-not-deployed": "True"
+          }
+        }
+      }
+    },
+    "projectDirectories": {},
+    "libraries": [],
+    "serviceMethods": [],
+    "cordovaPluginsDirectory": "plugins",
+    "cordovaPlugins": [],
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "W3C on Cordova",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto",
+          "Fullscreen": true
+        },
+        "isActive_": true,
+        "appName_": "padonde",
+        "appID_": "padonde.app",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [
+          {
+            "relPath": "36.png",
+            "density": "ldpi",
+            "height": 36,
+            "width": 36
+          },
+          {
+            "relPath": "48.png",
+            "density": "mdpi",
+            "height": 48,
+            "width": 48
+          },
+          {
+            "relPath": "72.png",
+            "density": "hdpi",
+            "height": 72,
+            "width": 72
+          },
+          {
+            "relPath": "96.png",
+            "density": "xhdpi",
+            "height": 96,
+            "width": 96
+          }
+        ],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "Ddv6EgAIWEyCNMd1THy0WQ2",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "5.1.1",
+        "appVersion_": "1",
+        "appAuthor_": "Intel XDK",
+        "appDescription_": "La red Social de Comercios y Turismo mas completa",
+        "appVersionCode_": "1",
+        "crosswalkVersion_": "18"
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "W3C on Cordova",
+        "name_": "iOS",
+        "preferences_": {
+          "ios-configuration": "adhoc",
+          "deployment-target": "6"
+        },
+        "isActive_": true,
+        "appName_": "padonde",
+        "appID_": "xdk.intel.blank.ad.template",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": [],
+          "properties": {}
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "5.1.1",
+        "crosswalkVersion_": "14",
+        "appVersion_": "0.0.1",
+        "appAuthor_": "Intel XDK",
+        "appDescription_": "Template to develop a packaged mobile web app using the App Designer UI editor."
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "W3C on Cordova",
+        "name_": "Windows8",
+        "preferences_": {
+          "windows-publisher-display-name": "",
+          "windows-publisher-id": ""
+        },
+        "isActive_": true,
+        "appName_": "padonde",
+        "appID_": "xdk.intel.blank.ad.template",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": [],
+          "properties": {}
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "5.1.1",
+        "crosswalkVersion_": "14",
+        "appVersion_": "0.0.0.1",
+        "appAuthor_": "Intel XDK",
+        "appDescription_": "Template to develop a packaged mobile web app using the App Designer UI editor."
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "padonde",
+        "appID_": "xdk.intel.blank.ad.template",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appVersion_": "0.0.1",
+        "appAuthor_": "Intel XDK",
+        "appDescription_": "Template to develop a packaged mobile web app using the App Designer UI editor."
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "padonde",
+        "appID_": "xdk.intel.blank.ad.template",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appVersion_": "0.0.1",
+        "appAuthor_": "Intel XDK",
+        "appDescription_": "Template to develop a packaged mobile web app using the App Designer UI editor."
+      },
+      "Firefox": {
+        "platform_": "firefoxos",
+        "runtime_": "W3C on Firefox OS",
+        "name_": "Firefox",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "padonde",
+        "appID_": "xdk.intel.blank.ad.template",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appVersion_": "0.0.1",
+        "appAuthor_": "Intel XDK",
+        "appDescription_": "Template to develop a packaged mobile web app using the App Designer UI editor."
+      },
+      "Facebook": {
+        "platform_": "facebook",
+        "runtime_": "W3C on Facebook",
+        "name_": "Facebook",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "padonde",
+        "appID_": "xdk.intel.blank.ad.template",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appVersion_": "0.0.1",
+        "appAuthor_": "Intel XDK",
+        "appDescription_": "Template to develop a packaged mobile web app using the App Designer UI editor."
+      },
+      "WP81": {
+        "platform_": "wp81",
+        "runtime_": "W3C on Cordova",
+        "name_": "WP81",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "padonde",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "5.1.1"
+      }
+    },
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {},
+    "projectTags": [],
+    "testDirectory": "test"
+  }
+}
